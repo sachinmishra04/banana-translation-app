@@ -15,9 +15,11 @@
  */
 
 const translateBtn=document.querySelector(".translate-btn");
-
+const textInput=document.querySelector(".textInput");
 console.log(translateBtn)
 
-translateBtn.addEventListener(onclick, function show(){
+translateBtn.addEventListener("click", function show(){
     alert("hi ji")
 });
+
+textInput.addEventListener(onchange,()=>console.log("hi"))
