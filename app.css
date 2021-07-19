@@ -45,7 +45,7 @@ html,body,p,h3{
     display: flex;
     justify-content: center;
     align-items:flex-start;
-    margin-top:30px;
+    margin-top:50px;
     height: 65vh;
     
 }
@@ -99,6 +99,14 @@ button{
 .sub-header{
     font-size:1rem;
     font-family: var(--fontStyle);
+    margin-bottom: 0.5em;
+    
+    margin-top:.3em;
+}
+
+p{
+    padding:.3em;
+    text-align: center;
 }
 
 .about-container{
@@ -109,7 +117,21 @@ button{
     background: var(--banana);
     margin-top:50px;
     padding:0.7em;
-   
-    
+     
 }
 
+@media only screen and (max-width: 650px) {
+   
+   .head-container{
+       font-size: 1rem;
+   }
+   
+    .translator textarea{
+       width:60vw;
+   }
+
+   .outputTxt{
+       width:60vw;
+   }
+
+  }
