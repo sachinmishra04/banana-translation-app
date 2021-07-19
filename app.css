@@ -39,6 +39,7 @@ html,body,p,h3{
     font-family: var(--fontStyle);
     font-size: 1.2rem;
     height:20vh;
+    font-weight: 600;
    
  }
 .translator-container{
