@@ -23,7 +23,7 @@ html,body,p,h3{
  :root {
     --banana: #F2C94C;
     --textBlack: #333333;
-    --fontStyle:Verdana, Geneva, Tahoma, sans-serif;
+    --fontStyle:'Kalam', cursive;
   }
   .translator-app{
       display: flex;
