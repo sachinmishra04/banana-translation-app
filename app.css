@@ -51,7 +51,7 @@ html,body,p,h3{
     justify-content: center;
     align-items:flex-start;
     margin-top:50px;
-    height: 65vh;
+    height: 60vh;
     
 }
 .translator{
@@ -89,6 +89,7 @@ button{
     border: 2px solid var(--banana);
     padding:1rem;
     margin-top:30px;
+    font-family: var(--fontStyle);
 }
 
 .about-section{
@@ -104,13 +105,13 @@ button{
 .sub-header{
     font-size:1rem;
     font-family: var(--fontStyle);
-    margin-bottom: 0.5em;
-    
+    margin-bottom: 0.2em;
+    color:var(--textBlack);
     margin-top:.3em;
 }
 
 p{
-    padding:.3em;
+    padding:.2em;
     text-align: center;
 }
 
@@ -120,9 +121,15 @@ p{
     align-items: center;
     flex: 1 1 15vh;
     background: var(--banana);
-    margin-top:50px;
-    padding:0.7em;
-     
+    margin-top:25px;
+    padding:0.5em;    
+}
+
+
+
+
+.about-description{
+    font-family: var(--fontStyle);
 }
 
 @media only screen and (max-width: 650px) {
