@@ -1,0 +1,103 @@
+/*
+ * Project:  banana-translation-app
+ * File:      app.css
+ * Author:   Amit Mishra (amit.mishra+CODA@gmail.com)
+ * 
+ * Description:
+ * 
+ * Revision History:
+ *   2021-July-15: 
+ * 
+ * Copyright (c) 2021 Self
+ * 
+ * License:
+ *    
+ */
+body{
+    padding: 0;
+    margin:0;
+}
+ :root {
+    --banana: #F2C94C;
+    --textBlack: #333333;
+    --fontStyle:Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .head-container{
+    background: var(--banana);
+    padding: 0.2rem;
+    text-align: center;
+    color:var(--textBlack);
+    font-family: var(--fontStyle);
+    font-size: 1.2rem;
+ }
+.translator-container{
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    margin-top:30px;
+}
+.translator{
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    flex-direction: column;
+    padding:1rem;
+ 
+    
+}
+.translator textarea{
+     height:15vh;
+     width:40vw;
+     padding: 1rem;
+
+ }
+
+
+button{
+    padding: 1rem;
+    font-family: var(--fontStyle);
+    font-size: 1.2rem;
+    background: var(--banana);
+    border: none;
+    border-radius: 5px;
+    
+    margin-top: 10px;
+
+}
+
+.outputTxt{
+    height:10vh;
+    width:40vw;
+    border: 2px solid var(--banana);
+    padding:1rem;
+    margin-top:30px;
+}
+
+.about-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border:1px solid red;
+
+  
+   
+}
+
+.sub-header{
+    font-size:1.2rem;
+    font-family: var(--fontStyle);
+}
+
+.about-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background: var(--banana);
+    margin-top:50px;
+    padding:0.7em;
+    border:1px solid red;
+}
+

@@ -25,7 +25,8 @@ translateBtn.addEventListener("click", () => {
     `https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json?text=${textInput.value}`
   )
     .then((res) => res.json())
-    .then((output) => (outputTxt.innerText = output.contents.translation));
+    .then((output) => (outputTxt.innerText = output.contents.translation))
+    .catch((error) => alert("error occured", error));
 });
 
 textInput.addEventListener(onchange, () => console.log("hi"));
